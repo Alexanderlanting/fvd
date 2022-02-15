@@ -27,14 +27,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Je storyboard:
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="storyboard voor opdracht 1">
+  <img src="readme-images/storyboard.svg" width="375px" alt="storyboard voor opdracht 1">
 
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
-  - punt 1
-  - punt 2
-  - nog een punt
+  - Ik wil graag meer weten over animatie, zodat ik als designer weet wat er allemaal mogelijk is. 
+  - CSS tricks leren zodat ik die kan toepassen op mijn eigen website. 
+  - Pseudo-elements gebruiken, nog nooit gebruikt. 
   - ...
  
 </details>
