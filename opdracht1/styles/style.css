@@ -4,11 +4,12 @@
 /* FONTS */
 /*********/
 @font-face {
-	font-family: 'eenfont';
-	src: url('../fonts/eenfont.woff2') format('woff2'),
-			 url('../fonts/eenfont.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'Nobile';
+    src: url('../fonts/Nobile-Medium.ttf') format('ttf'),
+        url('../fonts/Nobile-Regular.ttf') format('ttf'),
+        url('../fonts/Nobile-Bold.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
 
 }
 
@@ -19,12 +20,17 @@
 /**************/
 /* CSS REMEDY */
 /**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
 }
 
-button, summary {
-	cursor: pointer;
+button,
+summary {
+    cursor: pointer;
 }
 
 
@@ -35,9 +41,9 @@ button, summary {
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-	/* startje */
-	--color-main:#111;
-	--color-background:#eee;
+    /* startje */
+    --color-kodak-rood: #e30613;
+    --color-kodak-geel: #fab617;
 }
 
 
@@ -48,10 +54,261 @@ button, summary {
 /* JOUW STYLING */
 /****************/
 body {
-  font-family:eenfont, sans-serif;
-  color:var(--color-main);
-  background-color:var(--color-background);
+    font-family: Nobile, sans-serif;
+    background-color: var(--color-kodak-geel);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
 }
 
 /* jouw code */
 
+body h1 {
+    position: relative;
+    height: 100px;
+    animation: frames 2s ease-in-out infinite;
+}
+
+@keyframes frames {
+
+    0% {
+        opacity: 60%;
+    }
+
+    2.5% {
+        opacity: 100%;
+    }
+
+    5% {
+        opacity: 60%;
+    }
+
+    7.5% {
+        opacity: 100%;
+    }
+
+    10% {
+        opacity: 40%;
+    }
+
+    12.5% {
+        opacity: 100%;
+    }
+
+    15% {
+        opacity: 80%;
+    }
+
+    17.5% {
+        opacity: 100%;
+    }
+
+    20% {
+        opacity: 40%;
+    }
+
+    22.5% {
+        opacity: 100%;
+    }
+
+    25% {
+        opacity: 60%;
+    }
+
+    27.5% {
+        opacity: 100%;
+    }
+
+    30% {
+        opacity: 40%;
+    }
+
+    32.5% {
+        opacity: 100%;
+    }
+
+    35% {
+        opacity: 80%;
+    }
+
+    37.5% {
+        opacity: 100%;
+    }
+
+    40% {
+        opacity: 60%;
+    }
+
+    42.5% {
+        opacity: 100%;
+    }
+
+    45% {
+        opacity: 80%;
+    }
+
+    47.5% {
+        opacity: 100%;
+    }
+
+    50% {
+        opacity: 40%;
+    }
+
+    52.5% {
+        opacity: 100%;
+    }
+
+    55% {
+        opacity: 80%;
+    }
+
+    57.5% {
+        opacity: 100%;
+    }
+
+    60% {
+        opacity: 60%;
+    }
+
+    62.5% {
+        opacity: 100%;
+    }
+
+    65% {
+        opacity: 80%;
+    }
+
+    67.5% {
+        opacity: 100%;
+    }
+
+    70% {
+        opacity: 60%;
+    }
+
+    72.5% {
+        opacity: 100%;
+    }
+
+    75% {
+        opacity: 40%;
+    }
+
+    80% {
+        opacity: 100%;
+    }
+
+    82.5% {
+        opacity: 80%;
+    }
+
+    85% {
+        opacity: 100%;
+    }
+
+    87.5% {
+        opacity: 60%;
+    }
+
+    90% {
+        opacity: 100%;
+    }
+
+    92.5% {
+        opacity: 80%;
+    }
+
+    95% {
+        opacity: 100%;
+    }
+
+    97.5% {
+        opacity: 60%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+body h1::before {
+    content: '';
+    border-radius: 6px 0px 0px 6px;
+    display: inline-block;
+    width: 40px;
+    height: 100px;
+    clip-path: polygon(100% 0%, 20% 50%, 100% 100%, 0% 100%, 0% 0%);
+    background-color: var(--color-kodak-rood);
+}
+
+body h1::after {
+    content: '';
+    border-radius: 0px 6px 6px 0px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 50%);
+    background-color: var(--color-kodak-rood);
+    margin-left: -35px;
+}
+
+body span {
+    font-weight: 700;
+    color: var(--color-kodak-geel);
+    font-size: 25px;
+    position: absolute;
+    animation: letters 2s ease-in-out infinite;
+}
+
+@keyframes letters {
+
+    0% {}
+
+    25% {
+        transform: translateX(10px) translateY(-1px);
+    }
+
+    50% {
+        transform: translateX(-10px) translateY(0px);
+    }
+
+    75% {
+        transform: translateX(10px) translateY(1px);
+    }
+
+    100% {}
+
+}
+
+body span:nth-of-type(1) {
+    top: 39%;
+    left: 24%;
+    z-index: 1;
+}
+
+body span:nth-of-type(2) {
+    top: 39%;
+    left: 39%;
+    z-index: 1;
+}
+
+body span:nth-of-type(3) {
+    top: 39%;
+    left: 53%;
+    z-index: 1;
+}
+
+body span:nth-of-type(4) {
+    top: 39%;
+    left: 67%;
+    z-index: 1;
+}
+
+body span:nth-of-type(5) {
+    top: 39%;
+    left: 80%;
+    z-index: 1;
+}
