@@ -41,9 +41,15 @@ summary {
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-    /* startje */
     --color-kodak-rood: #e30613;
     --color-kodak-geel: #fab617;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-kodak-rood: #ffffff;
+        --color-kodak-geel: #000000;
+    }
 }
 
 
@@ -69,12 +75,18 @@ body h1 {
     position: relative;
     height: 100px;
     animation: frames 2s ease-in-out infinite;
+    animation-play-state: paused;
+}
+
+body h1:hover span,
+body h1:hover {
+    animation-play-state: running;
 }
 
 @keyframes frames {
 
     0% {
-        opacity: 60%;
+        opacity: 100%;
     }
 
     2.5% {
@@ -261,6 +273,7 @@ body span {
     font-size: 25px;
     position: absolute;
     animation: letters 2s ease-in-out infinite;
+    animation-play-state: paused;
 }
 
 @keyframes letters {
@@ -268,15 +281,15 @@ body span {
     0% {}
 
     25% {
-        transform: translateX(10px) translateY(-1px);
+        transform: translateX(10px) translateY(-1px) skew(2deg);
     }
 
     50% {
-        transform: translateX(-10px) translateY(0px);
+        transform: translateX(-10px) translateY(0px) skew(0deg);
     }
 
     75% {
-        transform: translateX(10px) translateY(1px);
+        transform: translateX(10px) translateY(1px) skew(-2deg);
     }
 
     100% {}
@@ -309,6 +322,6 @@ body span:nth-of-type(4) {
 
 body span:nth-of-type(5) {
     top: 39%;
-    left: 80%;
+    left: 79%;
     z-index: 1;
 }
