@@ -14,7 +14,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 ## Bronnenlijst
-  1. -bron 1-
+  1. -https://fonts.google.com/specimen/Nobile (font dat lijkt op kodak font)-
   2. -bron 2-
   3. -...-
 
