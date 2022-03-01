@@ -133,6 +133,7 @@ body h1 {
 
 body h1:hover span,
 body h1:hover {
+    cursor: pointer; 
     animation-play-state: running;
 }
 
@@ -149,7 +150,7 @@ body h1:hover {
     }
 
     5% {
-        opacity: 60%;
+        opacity: 40%;
         transform: translateX(0px);
     }
 
@@ -159,7 +160,7 @@ body h1:hover {
     }
 
     10% {
-        opacity: 40%;
+        opacity: 20%;
         transform: translateX(0px);
     }
 
@@ -169,7 +170,7 @@ body h1:hover {
     }
 
     15% {
-        opacity: 80%;
+        opacity: 60%;
         transform: translateX(0px);
     }
 
@@ -179,7 +180,7 @@ body h1:hover {
     }
 
     20% {
-        opacity: 40%;
+        opacity: 20%;
         transform: translateX(0px);
     }
 
@@ -189,7 +190,7 @@ body h1:hover {
     }
 
     25% {
-        opacity: 60%;
+        opacity: 40%;
         transform: translateX(0px);
     }
 
@@ -199,7 +200,7 @@ body h1:hover {
     }
 
     30% {
-        opacity: 40%;
+        opacity: 20%;
         transform: translateX(0px);
     }
 
@@ -209,7 +210,7 @@ body h1:hover {
     }
 
     35% {
-        opacity: 80%;
+        opacity: 60%;
         transform: translateX(0px);
     }
 
@@ -219,7 +220,7 @@ body h1:hover {
     }
 
     40% {
-        opacity: 60%;
+        opacity: 40%;
         transform: translateX(0px);
     }
 
@@ -229,7 +230,7 @@ body h1:hover {
     }
 
     45% {
-        opacity: 80%;
+        opacity: 60%;
         transform: translateX(0px);
     }
 
@@ -239,7 +240,7 @@ body h1:hover {
     }
 
     50% {
-        opacity: 40%;
+        opacity: 20%;
         transform: translateX(0px);
     }
 
@@ -249,7 +250,7 @@ body h1:hover {
     }
 
     55% {
-        opacity: 80%;
+        opacity: 60%;
         transform: translateX(0px);
     }
 
@@ -259,7 +260,7 @@ body h1:hover {
     }
 
     60% {
-        opacity: 60%;
+        opacity: 40%;
         transform: translateX(0px);
     }
 
@@ -269,7 +270,7 @@ body h1:hover {
     }
 
     65% {
-        opacity: 80%;
+        opacity: 60%;
         transform: translateX(0px);
     }
 
@@ -279,7 +280,7 @@ body h1:hover {
     }
 
     70% {
-        opacity: 60%;
+        opacity: 40%;
         transform: translateX(0px);
     }
 
@@ -289,7 +290,7 @@ body h1:hover {
     }
 
     75% {
-        opacity: 40%;
+        opacity: 20%;
         transform: translateX(0px);
     }
 
@@ -299,7 +300,7 @@ body h1:hover {
     }
 
     82.5% {
-        opacity: 80%;
+        opacity: 60%;
         transform: translateX(0px);
     }
 
@@ -309,7 +310,7 @@ body h1:hover {
     }
 
     87.5% {
-        opacity: 60%;
+        opacity: 40%;
         transform: translateX(0px);
     }
 
@@ -319,7 +320,7 @@ body h1:hover {
     }
 
     92.5% {
-        opacity: 80%;
+        opacity: 60%;
         transform: translateX(0px);
     }
 
@@ -329,7 +330,7 @@ body h1:hover {
     }
 
     97.5% {
-        opacity: 60%;
+        opacity: 40%;
         transform: translateX(0px);
     }
 
