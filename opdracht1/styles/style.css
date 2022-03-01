@@ -91,7 +91,7 @@ div::after {
 }
 
 body h1:hover ~ div::after { 
-opacity: 10%; 
+opacity: 15%; 
 }
 
 @keyframes grain {
