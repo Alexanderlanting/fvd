@@ -76,6 +76,25 @@ body {
     overflow: hidden;
 }
 
+
+
+div::before {
+    content: "";
+    position: absolute;
+    background-image: url(../images/8mm.jpg);
+    width: 80px;
+    height: 80px;
+    left: 2vw;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    transform: translate(-50%, -50%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-play-state: paused;
+    opacity: 0%;
+}
+
 div::after {
     content: "";
     position: absolute;
@@ -90,8 +109,15 @@ div::after {
     transition: 0.2s all ease-in-out;
 }
 
-body h1:hover ~ div::after { 
-opacity: 30%; 
+body h1:hover ~ div::after {
+    opacity: 30%;
+}
+
+body h1:hover ~ div::before {
+    opacity: 100%;
+    mix-blend-mode: screen;
+    animation: frames 2s ease-in-out infinite;
+    transition: 0.2s all ease-in-out;
 }
 
 @keyframes grain {
@@ -133,7 +159,7 @@ body h1 {
 
 body h1:hover span,
 body h1:hover {
-    cursor: pointer; 
+    cursor: pointer;
     animation-play-state: running;
 }
 
@@ -339,6 +365,8 @@ body h1:hover {
         transform: translateX(0px) translateY(0px) skew(0deg);
     }
 }
+
+body h1 {}
 
 body h1::before {
     content: '';
