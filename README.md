@@ -48,19 +48,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/clipart.png" width="375px" alt="kodak logo">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatje(s)
+  Het logo op de webpagina zetten door middel van clip art zonder een svg te gebruiken. Ik heb nog nooit met clip art gewerkt dus dit was erg leerzaam. Verder heb ik de clip art op pseudo-elements gezet. Het was ook erg leerzaam om de pseudo-elementen te gebruiken voor het logo. Verder heb ik mijn css animatie techniek weer up to date gemaakt.  
 
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="top">
+  <img src="readme-images/clipart-code.png" width="375px" alt="clipart code">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatje(s)
+  Ik wou graag de achtergrond van de pagina grainy maken wanneer je over het kodak logo gaat met je muis. Eerst had ik deze grain op de body::after gezet, alleen omdat het logo element in het body element zit kon ik deze niet aanspreken op hover. Daarom heb ik de grain op het div element gezet zodat het een sibling element is en deze kon ik dus nu wel op hover aanspreken. 
 
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="bummer">
+  <img src="readme-images/div-code.png" width="375px" alt="div in code">
 </details>
 
 
