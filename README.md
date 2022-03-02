@@ -58,7 +58,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Dit was lastig/Is niet gelukt:
-  Ik wou graag de achtergrond van de pagina grainy maken wanneer je over het kodak logo gaat met je muis. Eerst had ik deze grain op de body::after gezet, alleen omdat het logo element in het body element zit kon ik deze niet aanspreken op hover. Daarom heb ik de grain op het div element gezet zodat het een sibling element is en deze kon ik dus nu wel op hover aanspreken. 
+  Ik wou graag de achtergrond van de pagina grainy maken wanneer je over het kodak logo gaat met je muis. Eerst had ik deze grain op de body::after gezet, alleen omdat het logo element in het body element zit kon ik deze niet aanspreken op hover. Daarom heb ik de grain op het div element gezet zodat het een sibling element is en deze kon ik dus nu wel op hover aanspreken. Verder was het lastig om het gewenste effect, het nabootsen van 8mm film die afspeelt te visualiseren op een witte achtergrond met een rood logo. Daarom heb ik ervoor gekozen om op de achtergrond op dark en light mode donker te houden. Het effect werkt wel beter wanneer het logo wit is in plaats van rood omdat het contrast dan hoger is en je meer dat flitsende effect kunt zien. 
 
   <img src="readme-images/div-code.png" width="375px" alt="div in code">
 </details>
