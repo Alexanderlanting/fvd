@@ -14,9 +14,6 @@
 }
 
 
-
-
-
 /**************/
 /* CSS REMEDY */
 /**************/
@@ -32,9 +29,6 @@ button,
 summary {
     cursor: pointer;
 }
-
-
-
 
 
 /*********************/
@@ -59,9 +53,6 @@ summary {
 }
 
 
-
-
-
 /****************/
 /* JOUW STYLING */
 /****************/
@@ -75,8 +66,6 @@ body {
     height: 100vh;
     overflow: hidden;
 }
-
-
 
 div::before {
     content: "";
@@ -93,6 +82,7 @@ div::before {
     background-repeat: no-repeat;
     animation-play-state: paused;
     opacity: 0%;
+    transition: background-image 2s all ease-in-out;
 }
 
 div::after {
@@ -147,8 +137,6 @@ body h1:hover ~ div::before {
         transform: translate(-1%, 7%);
     }
 }
-
-/* jouw code */
 
 body h1 {
     position: relative;
@@ -366,8 +354,6 @@ body h1:hover {
     }
 }
 
-body h1 {}
-
 body h1::before {
     content: '';
     border-radius: 6px 0px 0px 6px;
@@ -421,7 +407,6 @@ body span {
     }
 
 }
-
 
 
 body span:nth-of-type(1) {
