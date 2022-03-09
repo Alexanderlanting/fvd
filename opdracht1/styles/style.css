@@ -92,10 +92,11 @@ div::after {
     height: 200vh;
     left: -50%;
     top: -50%;
-    background-image: url(../images/grain.png);
+    background-image: url(../images/grain-test.jpeg);
+    background-size: contain; 
     opacity: 0%;
     z-index: -1;
-    animation: grain 0.4s steps(8) infinite;
+    animation: grain 0.2s steps(8) infinite;
     transition: 0.2s all ease-in-out;
 }
 
