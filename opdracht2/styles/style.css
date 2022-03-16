@@ -4,11 +4,11 @@
 /* FONTS */
 /*********/
 @font-face {
-	font-family: 'eenfont';
-	src: url('../fonts/eenfont.woff2') format('woff2'),
-			 url('../fonts/eenfont.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'eenfont';
+    src: url('../fonts/eenfont.woff2') format('woff2'),
+        url('../fonts/eenfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
 }
 
@@ -19,12 +19,17 @@
 /**************/
 /* CSS REMEDY */
 /**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-button, summary {
-	cursor: pointer;
+button,
+summary {
+    cursor: pointer;
 }
 
 
@@ -35,9 +40,10 @@ button, summary {
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-	/* startje */
-	--color-main:#111;
-	--color-background:#eee;
+    /* startje */
+    --color-main: #111;
+    --color-background: #eee;
+    --color-white: #fff
 }
 
 
@@ -48,10 +54,36 @@ button, summary {
 /* JOUW STYLING */
 /****************/
 body {
-  font-family:eenfont, sans-serif;
-  color:var(--color-main);
-  background-color:var(--color-background);
+    font-family: roboto, sans-serif;
+    color: var(--color-main);
+    background-color: var(--color-white);
 }
 
 /* jouw code */
 
+header {
+    height: 8em;
+    background-color: var(--color-background);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+
+}
+
+section {
+    width: 100%;
+    background-color: var(--color-background);
+    margin-bottom: 2px;
+}
+
+section h2 {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0;
+    padding-top: 1em;
+    width: 3em;
+    height: 3em;
+    background-color: var(--color-main);
+    display: inline-block;
+    color: var(--color-white);
+}

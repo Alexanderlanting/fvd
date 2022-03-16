@@ -72,15 +72,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Je ontwerp:
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="ontwerp opdracht 2">
+  <img src="readme-images/tier-list-mobile.jpg" width="375px" alt="tier list ontwerp mobile">
+  <img src="readme-images/tier-list-desktop.jpg" width="375px" alt="tier list ontwerp desktop">
 
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Ik wil graag een lijst kunnen maken met html & css.
+  - Ik wil graag expirimenteren met drag en drop. 
+  - elementen verschuiven met toetsenbord of andere controls.
+  - Em gebruiken, normaal gebruik ik altijd pixels.
 </details>
 
 
