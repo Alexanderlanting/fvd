@@ -80,8 +80,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Aan deze technieken/punten wil ik werken:
   - Ik wil graag een lijst kunnen maken met html & css.
   - Ik wil graag expirimenteren met drag en drop. 
-  - elementen verschuiven met toetsenbord of andere controls.
+  - Elementen verschuiven met toetsenbord of andere controls.
   - Em gebruiken, normaal gebruik ik altijd pixels en procenten.
+  - CSS code voorzien van duidelijk commentaar.
 </details>
 
 
