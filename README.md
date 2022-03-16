@@ -67,12 +67,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Opdracht 2 plan
 
-<details>
+<details open>
   <summary>uitwerken na schetsen idee (voor week 4)</summary>
 
 
   ### Je ontwerp:
-  <img src="readme-images/tier-list-mobile.jpg" width="375px" alt="tier list ontwerp mobile">
+  <img src="readme-images/tier-list-mobile.jpg" width="375px" alt="tier list ontwerp mobile"><br>
   <img src="readme-images/tier-list-desktop.jpg" width="375px" alt="tier list ontwerp desktop">
 
 
