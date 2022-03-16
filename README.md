@@ -81,7 +81,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Ik wil graag een lijst kunnen maken met html & css.
   - Ik wil graag expirimenteren met drag en drop. 
   - elementen verschuiven met toetsenbord of andere controls.
-  - Em gebruiken, normaal gebruik ik altijd pixels.
+  - Em gebruiken, normaal gebruik ik altijd pixels en procenten.
 </details>
 
 
