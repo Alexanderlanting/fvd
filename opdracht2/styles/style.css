@@ -13,9 +13,6 @@
 }
 
 
-
-
-
 /**************/
 /* CSS REMEDY */
 /**************/
@@ -33,22 +30,32 @@ summary {
 }
 
 
-
-
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-    /* startje */
-    --color-main: #111;
-    --color-background: #eee;
-    --color-white: #fff
+    --color-white: #111111;
+    --color-green: #39c373;
+    --color-green-light: #3fd47e;
+    --color-green-lighter: #4aea8d;
+    --color-black-transparant: rgba(0, 0, 0, 0.1);
+    --color-white-transparant: rgba(0, 0, 0, 0.15);
+    --color-mint: #094323;
+
 }
 
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-white: #fff;
+        --color-green: #03190d;
+        --color-green-light: #052112;
+        --color-green-lighter: #072e19;
+        --color-black-transparant: rgba(0, 0, 0, 0.2);
+        --color-white-transparant: rgba(255, 255, 255, 0.15);
+        --color-mint: #81f0bd;
+    }
 
-
-
+}
 
 /****************/
 /* JOUW STYLING */
@@ -56,34 +63,199 @@ summary {
 body {
     font-family: roboto, sans-serif;
     color: var(--color-main);
-    background-color: var(--color-white);
+    background-color: var(--color-green-lighter);
+    padding: 1em;
 }
+
 
 /* jouw code */
 
 header {
     height: 8em;
-    background-color: var(--color-background);
+    background-color: var(--color-green);
     position: fixed;
     width: 100%;
     bottom: 0;
-
+    left: 0;
+    right: 0;
 }
 
+/* h1 styling */
+
+h1 {
+    margin: 0.5em 0em 1em 0em;
+    color: var(--color-mint);
+    line-height: 1.2em;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5em;
+    display: inline-block;
+    letter-spacing: -1px;
+}
+
+/* p styling */
+
+p {
+    font-family: 'Source Code Pro', cursive;
+    font-weight: 500;
+    font-size: 1em;
+    max-width: 66em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+    letter-spacing: -0.05em;
+    color: var(--color-mint);
+}
+
+/* section styling */
+
 section {
-    width: 100%;
-    background-color: var(--color-background);
+    background-color: var(--color-green-light);
     margin-bottom: 2px;
+    display: flex;
+}
+
+section:last-of-type {
+    margin-bottom: 2em;
 }
 
 section h2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     font-size: 1.5em;
-    text-align: center;
     margin: 0;
-    padding-top: 1em;
-    width: 3em;
-    height: 3em;
-    background-color: var(--color-main);
-    display: inline-block;
+    min-width: 3.8em;
+    min-height: 3.8em;
+    background-color: var(--color-green);
     color: var(--color-white);
+    font-family: 'Press Start 2P', cursive;
+}
+
+/* list styling */
+
+ul li {
+    width: 4em;
+    height: 4em;
+    display: block;
+    border-radius: 4em;
+    margin-right: 0.5em;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+}
+
+section ul {
+    width: 100%;
+    height: auto;
+    padding-top: 0.8em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 1em;
+    margin-bottom: 0.4em;
+}
+
+section ul li {
+    margin-bottom: 0.4em;
+}
+
+ul li:hover {
+    cursor: pointer;
+}
+
+ul li img {
+    width: 4em;
+    height: 4em;
+
+}
+
+ul li button {
+    width: 100%;
+    height: 100%;
+    border-radius: 4em;
+    border: 0;
+    background-color: var(--color-black-transparant);
+    transition: 0.2s all ease-in-out;
+}
+
+ul li button:focus {
+    outline: 0;
+    border: 2px solid var(--color-mint);
+    background-color: var(--color-white-transparant);
+    box-sizing: border-box;
+
+}
+
+/* styling van het versleepte item en ghost */
+
+li.sortable-ghost {
+    opacity: .4;
+}
+
+li.sortable-drag {
+    /* jouw code hier */
+    background: var(--color-main);
+    cursor: grabbing;
+}
+
+/* header list styling */
+
+header ul {
+    display: flex;
+    height: 7em;
+    padding-top: 1em;
+    flex-direction: row;
+    align-items: center;
+    overflow: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+header ul li {
+    margin-bottom: 1em;
+}
+
+/* scrollbar styling */
+
+ul::-webkit-scrollbar {
+    height: 1em;
+    border-radius: 2em;
+    background-color: var(--color-black-transparant);
+}
+
+ul::-webkit-scrollbar-thumb {
+    background-color: var(--color-white-transparant);
+    border-radius: 2em;
+}
+
+/* button styling voor random pokemon button */
+
+#random {
+    background-color: var(--color-green);
+    color: var(--color-mint);
+    font-family: 'Press Start 2P', cursive;
+    padding: 1em;
+    border: 0;
+    box-shadow: 0 6px var(--color-black-transparant);
+    margin-bottom: 11em;
+    transition: 0.2s all ease-in-out;
+}
+
+#random:hover {
+    box-shadow: 0 4px var(--color-black-transparant);
+    transform: translateY(2px);
+}
+
+#random:active {
+    background-color: var(--color-green-light);
+    box-shadow: 0 0px var(--color-green-light);
+    transform: translateY(6px);
+}
+
+#random:focus {
+    outline: 2px solid var(--color-mint);
+    background-color: var(--color-white-transparant);
+    box-sizing: border-box;
 }

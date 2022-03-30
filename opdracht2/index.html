@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="nl">
-	
+
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="jouw naam">
@@ -10,34 +10,65 @@
     <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Source+Code+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-    <h1>Tier maker</h1>
-    
-   <header></header>
+    <h1>Starter Pokemon Tier List</h1>
+    <header>
+        <ul id="list">
+            <li><button><img id="pokemon" class="pokemon-images" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" /></button></li>
+            <li><button><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png" /></button></li>
+            <li><button><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png" /></button></li>
+            <li><button><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png" /></button></li>
+            <li><button><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png" /></button></li>
+            <li><button><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png" /></button></li>
+            <li><button><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png" /></button></li>
+            <li><button><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png" /></button></li>
+            <li><button><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png" /></button></li>
+            <li><button><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/152.png" /></button></li>
+            <li><button><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/153.png" /></button></li>
+            <li><button><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/154.png" /></button></li>
+            <li><button><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/155.png" /></button></li>
+            <li><button><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/156.png" /></button></li>
+            <li><button><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/157.png" /></button></li>
+            <li><button><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/158.png" /></button></li>
+            <li><button><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/159.png" /></button></li>
+            <li><button><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/160.png" /></button></li>
+        </ul>
+    </header>
 
     <section>
         <h2>A</h2>
+        <ul></ul>
     </section>
     <section>
         <h2>B</h2>
+        <ul></ul>
     </section>
     <section>
         <h2>C</h2>
+        <ul></ul>
     </section>
     <section>
         <h2>D</h2>
+        <ul></ul>
     </section>
     <section>
         <h2>E</h2>
+        <ul></ul>
     </section>
     <section>
         <h2>F</h2>
+        <ul></ul>
     </section>
 
+    <p>Welcome to the Starter Pokemon Tier List maker, create your own tier list by dragging and dropping items in the tiers. By clicking on the "Random Pokemons" button you will get a selection of random pokemons from the first two generations. </p>
 
-    <script src="scripts/script.js"></script>
+    <button id="random">Random Pokemons</button>
+
     <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+    <script src="scripts/script.js"></script>
+
 </body></html>
