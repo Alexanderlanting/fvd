@@ -126,7 +126,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   
   #### oplossing:
   Ik heb aan het einde van de javascript code de pokemon een focus gegeven nadat die verschoven is. 
-  <img src="readme-images/focus-lost.jpg" width="375px" alt="pokemon focus code">
+  <img src="readme-images/focus-lost-code.jpg" width="375px" alt="pokemon focus code">
   
   
   
