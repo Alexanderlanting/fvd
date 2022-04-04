@@ -98,11 +98,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevinding 1:
   Wanneer je de pokemon een focus gaf lukte het niet om ze met de arrow keys te verschuiven van links naar rechts. 
+  
   <img src="readme-images/focus-move.jpg" width="375px" alt="tier list ontwerp mobile">
   
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Ik heb met javascript door middel van nextElementSibling en PreviousElementSibling het probleem opgelost. 
+  
+  <img src="readme-images/focus-move-code.jpg" width="375px" alt="tier list ontwerp mobile">
 
 
 
