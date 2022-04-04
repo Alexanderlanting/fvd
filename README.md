@@ -108,11 +108,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/focus-move-code.jpg" width="375px" alt="pokemon focus code">
 
 
-
   ### Bevinding 2:
   Ik wou graag dat je met de arrow keys de pokemons van tier lists kon verschuiven.
   
-  <img src="readme-images/focus-move.jpg" width="375px" alt="pokemon focus">  
+  <img src="readme-images/focus-tiers.jpg" width="375px" alt="pokemon focus">  
 
   #### oplossing:
   Ik heb met behulp van een nextElementSibling, querySelector en een appendChild de pokemon van tier kunnen laten wisselen met de arrow keys wanneer ze focus hebben. 
@@ -122,7 +121,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevinding 3:
   Wanneer je de pokemon hebt verschoven tijdens de focus met de arrow keys verliest de pokemon de focus. 
   
-  <img src="readme-images/focus-move.jpg" width="375px" alt="pokemon focus">
+  <img src="readme-images/focus-geen.jpg" width="375px" alt="pokemon focus">
   
   #### oplossing:
   Ik heb aan het einde van de javascript code de pokemon een focus gegeven nadat die verschoven is. 
@@ -132,13 +131,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevinding 4:
   Wanneer je de pokemon in de list naar rechts verplaats stopt hij op het einde maar aan de linker kant aan het einde komt de pokemon weer helemaal rechts terecht, het zou beter zijn als dit niet kon gebeuren.  
   
-  <img src="readme-images/focus-move.jpg" width="375px" alt="pokemon focus">
+  <img src="readme-images/focus-list.jpg" width="375px" alt="pokemon focus">
   
   #### oplossing:
   Er voor zorgen dat de "li" niet van de eerste naar de laatste plek kan gaan, deze code schrijven is mij niet gelukt. 
-  
-  
-  
   
   
   
