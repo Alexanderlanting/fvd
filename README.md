@@ -120,7 +120,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/focus-tiers-code.jpg" width="375px" alt="pokemon focus code"> 
 
   ### Bevinding 3:
-  ...
+  Wanneer je de pokemon hebt verschoven tijdens de focus met de arrow keys verliest de pokemon de focus. 
+  
+  <img src="readme-images/focus-move.jpg" width="375px" alt="pokemon focus">
+  
+  #### oplossing:
+  Ik heb aan het einde van de javascript code de pokemon een focus gegeven nadat die verschoven is. 
+  <img src="readme-images/focus-lost.jpg" width="375px" alt="pokemon focus code">
+  
+  
+  
+  
+  
 </details>
 
 
