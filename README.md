@@ -89,7 +89,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Opdracht 2 test
 
-<details>
+<details open>
   <summary>uitwerken na testen (week 6/7)</summary>
 
   Neem minimaal 5 bevindingen op:
@@ -99,23 +99,25 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevinding 1:
   Wanneer je de pokemon een focus gaf lukte het niet om ze met de arrow keys te verschuiven van links naar rechts. 
   
-  <img src="readme-images/focus-move.jpg" width="375px" alt="tier list ontwerp mobile">
+  <img src="readme-images/focus-move.jpg" width="375px" alt="pokemon focus">
   
 
   #### oplossing:
   Ik heb met javascript door middel van nextElementSibling en PreviousElementSibling het probleem opgelost. 
   
-  <img src="readme-images/focus-move-code.jpg" width="375px" alt="tier list ontwerp mobile">
+  <img src="readme-images/focus-move-code.jpg" width="375px" alt="pokemon focus code">
 
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Ik wou graag dat je met de arrow keys de pokemons van tier lists kon verschuiven.
+  
+  <img src="readme-images/focus-move.jpg" width="375px" alt="pokemon focus">  
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Ik heb met behulp van een nextElementSibling, querySelector en een appendChild de pokemon van tier kunnen laten wisselen met de arrow keys wanneer ze focus hebben. 
 
-
+  <img src="readme-images/focus-tiers-code.jpg" width="375px" alt="pokemon focus"> 
 
   ### Bevinding 3:
   ...
