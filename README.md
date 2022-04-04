@@ -117,7 +117,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### oplossing:
   Ik heb met behulp van een nextElementSibling, querySelector en een appendChild de pokemon van tier kunnen laten wisselen met de arrow keys wanneer ze focus hebben. 
 
-  <img src="readme-images/focus-tiers-code.jpg" width="375px" alt="pokemon focus"> 
+  <img src="readme-images/focus-tiers-code.jpg" width="375px" alt="pokemon focus code"> 
 
   ### Bevinding 3:
   ...
