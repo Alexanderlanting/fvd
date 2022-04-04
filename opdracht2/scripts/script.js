@@ -12,6 +12,7 @@ const listE = document.querySelector('section:nth-of-type(5) ul');
 const listF = document.querySelector('section:last-of-type ul');
 
 var SectionLists = document.getElementById('sectionlists');
+var header = document.querySelector('header ul');
 
 
 sortables.forEach(aSortable => {
@@ -59,16 +60,16 @@ allHeaderButtons.forEach(aButton => {
                 var aSectionPokemon = event.target.closest('section li');
                 var CurrentSelection = event.target.closest('section')
 
-                if (aButton == aPokemon) {
-                    listF.appendChild(aPokemon);
-                    event.target.closest('section button').focus();
-                }
-                if (aButton == aSectionPokemon) {
-                    allSections.forEach(aSection => {
-                        CurrentSelection.nextElementSibling.querySelector('ul').appendChild(aSectionPokemon);
+                allSections.forEach(aSection => {
+                    if (aSectionPokemon.parentElement == listF) {
+                        header.appendChild(aSectionPokemon);
                         event.target.closest('button').focus();
-                    });
-                }
+                    }
+                    CurrentSelection.nextElementSibling.querySelector('ul').appendChild(aSectionPokemon);
+                    event.target.closest('button').focus();
+
+                });
+
                 // Do something for "down arrow" key press.
                 break;
 
@@ -80,6 +81,7 @@ allHeaderButtons.forEach(aButton => {
 
                 if (aButton == aPokemon) {
                     listF.appendChild(aPokemon);
+                    event.target.closest('section button').focus();
                 }
                 if (aButton == aSectionPokemon) {
                     allSections.forEach(aSection => {

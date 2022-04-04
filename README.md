@@ -126,7 +126,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   
   #### oplossing:
   Ik heb aan het einde van de javascript code de pokemon een focus gegeven nadat die verschoven is. 
+  
   <img src="readme-images/focus-lost-code.jpg" width="375px" alt="pokemon focus code">
+  
+  ### Bevinding 4:
+  Wanneer je de pokemon in de list naar rechts verplaats stopt hij op het einde maar aan de linker kant aan het einde komt de pokemon weer helemaal rechts terecht, het zou beter zijn als dit niet kon gebeuren.  
+  
+  <img src="readme-images/focus-move.jpg" width="375px" alt="pokemon focus">
+  
+  #### oplossing:
+  Er voor zorgen dat de "li" niet van de eerste naar de laatste plek kan gaan, deze code schrijven is mij niet gelukt. 
+  
   
   
   
