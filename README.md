@@ -17,6 +17,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   1. https://fonts.google.com/specimen/Nobile (font dat lijkt op kodak font)
   2. https://sortablejs.github.io/Sortable/ (sortable library voor de drag & drop)
   3. https://pokeapi.co/ (pokemon sprites die extern ingeladen worden)
+  4. https://fonts.google.com/specimen/Press+Start+2P?query=press (titel font opdarcht 2)
+  5. https://fonts.google.com/specimen/Source+Code+Pro?query=source+code (body font opdracht 2)
 
 
 
