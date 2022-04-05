@@ -173,5 +173,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Dit was lastig/Is niet gelukt:
   <img src="readme-images/niet-goed.jpg" width="375px" alt="bummer">
   
+  
   Er zijn nog een aantal interacties die niet helemaal perfect zijn. Wanneer je met je toetsenbord op een pokemon focust kan je hem aan de linkerkant te ver verschuiven waardoor die weer helemaal achteraan komt. Verder had ik ook liever gehad wanneer je een pokemon van tier list veranderd dat hij vooraan de lijst kwam te staan. Wanneer je dit doet komt de pokemon helemaal achter aan de lijst te staan. Dit zijn wat kleine dingen die ik graag nog had verbeterd maar ik ben al lang blij dat de javascript werkt want dat was al een uitdaging voor mij :)  
 </details>
