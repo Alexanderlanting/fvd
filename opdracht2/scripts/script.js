@@ -15,6 +15,8 @@ sortables.forEach(aSortable => {
 });
 
 
+// functie voor een random pokemon 
+
 function randomPokemon() {
     var randomImages = document.querySelectorAll("header img");
     var duplicatePokemon = document.querySelectorAll("section ul img");
@@ -34,6 +36,8 @@ function randomPokemon() {
 
 document.getElementById("random").addEventListener("click", randomPokemon);
 
+
+// functie om met focus en je toetsenbord de pokemons te bewegen
 
 allHeaderButtons.forEach(aButton => {
 
@@ -104,4 +108,4 @@ allHeaderButtons.forEach(aButton => {
 
 });
 
-document.getElementById("focus").focus();
+
