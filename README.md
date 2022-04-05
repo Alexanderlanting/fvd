@@ -140,7 +140,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevinding 5:
   Ik had een random pokemon button toegevoegd omdat het ook leuk is om een tier list te maken van random pokemons. Alleen wanneer je deze random knop inklikte had je soms dat je een paar dezelfde pokemons in je list kreeg. 
   
-  <img src="readme-images/duplicate.jpg" width="375px" alt="pokemon duplicates">
+  <img src="readme-images/duplicates.jpg" width="375px" alt="pokemon duplicates">
   
   #### oplossing:
   Een extra stuk code toevoegen die checkt welk nummer math random heeft en wanneer die hetzelfde is doet de functie nogmaals een math random om zo te voorkomen dat er duplicates zijn. 
