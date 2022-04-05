@@ -15,8 +15,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Bronnenlijst
   1. https://fonts.google.com/specimen/Nobile (font dat lijkt op kodak font)
-  2. -bron 2-
-  3. -...-
+  2. https://sortablejs.github.io/Sortable/ (sortable library voor de drag & drop)
+  3. https://pokeapi.co/ (pokemon sprites die extern ingeladen worden)
 
 
 
@@ -147,10 +147,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   
   <img src="readme-images/duplicate-code.jpg" width="375px" alt="pokemon duplicate code">
   
-  
-  
-  
-  
 </details>
 
 
@@ -167,9 +163,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatje(s)
-
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="top">
+  <img src="readme-images/goed-code.jpg" width="375px" alt="top"><br>
+  <img src="readme-images/goed-code-01.jpg" width="375px" alt="top"><br>
+  <img src="readme-images/goed-code-02.jpg" width="375px" alt="top">
+  
+  Ik heb mijn code een stuk netter gemaakt dan ik normaal zou doen, dit maakt het een stuk overzichtelijker. Verder heb ik veel geleerd van de Javascript functies schrijven. Vooral nextElementSibling en appendChild zijn functies die ik nu beter begrijp en van pas kunnen komen. Ook heb ik veel met "EM" gewerkt, normaal werk ik altijd met "PX". 
 
 
   ### Dit was lastig/Is niet gelukt:
