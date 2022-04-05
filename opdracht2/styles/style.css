@@ -3,15 +3,8 @@
 /*********/
 /* FONTS */
 /*********/
-@font-face {
-    font-family: 'eenfont';
-    src: url('../fonts/eenfont.woff2') format('woff2'),
-        url('../fonts/eenfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
-}
-
+/* Google fonts gebruikt */ 
 
 /**************/
 /* CSS REMEDY */
@@ -35,9 +28,9 @@ summary {
 /*********************/
 :root {
     --color-white: #111111;
-    --color-green: #39c373;
-    --color-green-light: #3fd47e;
-    --color-green-lighter: #4aea8d;
+    --color-green: #3fdd82;
+    --color-green-light: #40eb88;
+    --color-green-lighter: #56ff9d;
     --color-black-transparant: rgba(0, 0, 0, 0.1);
     --color-white-transparant: rgba(0, 0, 0, 0.15);
     --color-mint: #094323;
@@ -167,7 +160,6 @@ ul li:hover {
 ul li img {
     width: 4em;
     height: 4em;
-
 }
 
 ul li button {
