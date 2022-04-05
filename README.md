@@ -161,7 +161,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken bij afronden opdracht (voor week 8)</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/product.jpg" width="375px" alt="uitkomst opdracht 2">
+  <img src="readme-images/product.jpg" width="375px" alt="uitkomst opdracht 2"><br>
   <img src="readme-images/product-light.jpg" width="375px" alt="uitkomst opdracht 2">
   
 
