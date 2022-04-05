@@ -167,11 +167,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/goed-code-01.jpg" width="375px" alt="top"><br>
   <img src="readme-images/goed-code-02.jpg" width="375px" alt="top">
   
-  Ik heb mijn code een stuk netter gemaakt dan ik normaal zou doen, dit maakt het een stuk overzichtelijker. Verder heb ik veel geleerd van de Javascript functies schrijven. Vooral nextElementSibling en appendChild zijn functies die ik nu beter begrijp en van pas kunnen komen. Ook heb ik veel met "EM" gewerkt, normaal werk ik altijd met "PX". 
+  Ik heb mijn code een stuk netter gemaakt dan ik normaal zou doen, dit maakt het een stuk overzichtelijker. Verder heb ik veel geleerd van de Javascript functies schrijven. Vooral nextElementSibling en appendChild zijn functies die ik nu beter begrijp en van pas kunnen komen. Ook heb ik veel met "EM" gewerkt, normaal werk ik altijd met "PX". Ik ben ook meer out of the box gaan denken over interacties in plaats van alleen de standaard. Je kunt zoveel meer gebruiken zoals je toetsenbord of je stem etc. 
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatje(s)
-
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="bummer">
+  <img src="readme-images/niet-goed.jpg" width="375px" alt="bummer">
+  
+  Er zijn nog een aantal interacties die niet helemaal perfect zijn. Wanneer je met je toetsenbord op een pokemon focust kan je hem aan de linkerkant te ver verschuiven waardoor die weer helemaal achteraan komt. Verder had ik ook liever gehad wanneer je een pokemon van tier list veranderd dat hij vooraan de lijst kwam te staan. Wanneer je dit doet komt de pokemon helemaal achter aan de lijst te staan. Dit zijn wat kleine dingen die ik graag nog had verbeterd maar ik ben al lang blij dat de javascript werkt want dat was al een uitdaging voor mij :)  
 </details>
